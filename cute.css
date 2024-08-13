@@ -1,0 +1,142 @@
+/* below are the media query for phones and desktop */
+/* this is for smart phones */
+@media screen and (min-width: 768px){
+    .container{
+        flex-direction:row;
+    }
+    .header-text{
+        text-align: left;
+        margin-right: 75px;
+    }
+}
+/* this is for desktops */
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction:column;
+    }
+
+}
+p{
+    font-weight: bold;
+}
+/* below is styling for h1 element */
+.header-text{
+    margin-left: 34px;
+}
+body{
+    background-color: hsl(13, 31%, 94%);
+}
+.container{
+    display: flex;
+}
+.product-container{
+    display: flex;
+    flex-basis: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -100px;
+}
+
+.product-img-container{
+    position: relative;
+}
+img{
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+}
+/* styling for the cart button and its icon */
+.cart-btn{
+    padding: 5px ;
+    border: 1px solid white;
+    background-color: hsl(12, 20%, 90%);
+    border-radius: 9999px;
+    position: absolute;
+    bottom: -10px;
+    left: 60px;
+    right: 60px;
+}
+   
+.cart-btn:hover{
+    background-color: hsl(14, 85%, 36%);
+    transition-duration: .3s; 
+}
+/* cart styling button ends here */
+.icon {
+    color: hsl(14, 86%, 42%);
+}
+/* the stling for the price of the item */
+.item-price{
+    color: hsl(14, 86%, 42%);
+    font-weight: bold;
+}
+
+
+/* below are the styling for the cart container */
+.cart-container{
+    flex-basis: 20%;
+    background-color: hsl(20, 50%, 98%);
+    padding: 20px;
+    height: 100%;
+    border-radius: 5px;
+}
+.product-list{
+    margin: 15px;
+}
+.list-name{
+    color: #919196;
+}
+
+button{
+    cursor: pointer;
+}
+
+.item{
+    position: relative;
+ }
+.cancel-btn{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+.button{
+    border: none;
+    background-color:hsl(20, 50%, 98%) ;
+}
+hr{
+    border: 1px solid hsl(0, 9%, 91%);
+}
+.total-order{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.total-order > span:first-child {
+    padding-top: 5px;
+    color: rgb(94, 85, 85);
+}
+.carbon-neutral{
+    border: 1px solid white;
+    background-color: hsl(0, 0%, 95%);
+    padding: 15px 10px 10px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.confirm-btn{
+    margin-top: 20px;
+    background-color: hsl(14, 83%, 43%);
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.confirm-btn:hover{
+    background-color: hsl(14, 85%, 36%);
+    transition-duration: .3s; 
+}
