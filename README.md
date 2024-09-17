@@ -8,7 +8,7 @@
 - `git remote add origin https://github.com/Sagelord00000001/sage-dessert-store.git` --> this is how you link your personal bucket to the online version (you need to do this only once)
 - `git push -u origin main` --> this is how you push to the online bucket that everyone can see
 
-## how to add any new changes
+## how to add any new changes 
 - `git add .`
 - `git commit -m 'comment'`
 - `git push`

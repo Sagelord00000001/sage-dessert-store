@@ -1,21 +1,4 @@
-/* below are the media query for phones and desktop */
-/* this is for smart phones */
-@media screen and (min-width: 768px){
-    .container{
-        flex-direction:row;
-    }
-    .header-text{
-        text-align: left;
-        margin-right: 75px;
-    }
-}
-/* this is for desktops */
-@media screen and (max-width: 768px){
-    .container{
-        flex-direction:column;
-    }
-
-}
+/* below are the media query for phones */
 p{
     font-weight: bold;
 }
@@ -31,12 +14,8 @@ body{
 }
 .product-container{
     display: flex;
-    flex-basis: 80%;
+    flex-basis: 70%;
     flex-wrap: wrap;
-    justify-content: space-between;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -100px;
 }
 
 .product-img-container{
@@ -139,4 +118,26 @@ hr{
 .confirm-btn:hover{
     background-color: hsl(14, 85%, 36%);
     transition-duration: .3s; 
+}
+
+
+/* this is for tablets and larger */
+@media screen and (min-width: 768px){
+    .container{
+        flex-direction:row;
+        /* this is for smart phones */
+@media screen and (min-width: 768px){
+    .container{
+        flex-direction:row;
+    }
+    .header-text{
+        text-align: left;
+        margin-right: 75px;
+    }
+}
+    }
+    .header-text{
+        text-align: left;
+        margin-right: 75px;
+    }
 }
